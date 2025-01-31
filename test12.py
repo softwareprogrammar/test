@@ -98,7 +98,8 @@ def test_forms(url):
 
     return False
 
-if name == "main":
+# Fix the incorrect 'if' statement
+if __name__ == "__main__":
     target_site = input("Enter the target website (e.g., https://example.com): ").strip()
 
     print("\n[+] Crawling site for URLs...")
